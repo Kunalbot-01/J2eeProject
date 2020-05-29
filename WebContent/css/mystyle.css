@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+#wrapper {
+	background-image: url("../images/image1.jpg");
+	background-color: #cccccc;
+	width: 80%;
+	margin: auto;
+	color: white;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+table {
+	width: 50%;
+	margin: auto;
+	background-image: url("../images/bg3.gif");
+	font-size: 20px;
+	border-radius: 20px;
+	padding: 50px 50px;
+	font-family: Bradley Hand ITC;
+	text-align: left;
+}
+
+tr {
+	height: 40px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}

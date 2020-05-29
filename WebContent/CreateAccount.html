@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ACCOUNT CREATION MENU</title>
+<link rel='stylesheet' type='text/css' href='css/mystyle.css'>
+</head>
+<body>
+	<div id=wrapper>
+		<h1>ACCOUNT CREATION SCREEN</h1>
+		<p>
+		<h2>Create your own account</h2>
+		</p>
+		<table>
+			<form action="CreateAccount" method="post">
+				<tr>
+					<td>Name <input type=text name=cname autofocus required
+						placeholder="enter username"></td>
+				</tr>
+
+				<tr>
+					<td>DOB <input type="date" name=cdob autofocus required
+						placeholder="enter date of birth"></td>
+				</tr>
+
+				<tr>
+					<td>Address <input type=text name=caddress autofocus required
+						placeholder="enter your address here"></td>
+				</tr>
+
+				<tr>
+					<td>Email <input type=text name=cemail autofocus required
+						placeholder="enter your email address here"></td>
+				</tr>
+
+				<tr>
+					<td>Type</td>
+					<td><select text-align:left name="my_selected_value">
+							<option value="Sb_account">Sb_account</option>
+							<option value="C_account">Current_account</option>
+					</select></td>
+				</tr>
+
+				<tr>
+					<td>Create<input type=submit value="CREATE ACCOUNT"></td>
+				</tr>
+			</form>
+		</table>
+	</div>
+</body>
+</html>

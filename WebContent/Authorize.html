@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AUTHORIZATION SCREEN</title>
+<link rel='stylesheet' type='text/css' href='css/mystyle.css'>
+</head>
+<body>
+	<div id=wrapper>
+		<h1>AUTHORIZE CREDIT CARD TRANSACTIONS</h1>
+		<br>
+		<h1 text-color:red>Initial amount for authorization should be more than 10000</h1>
+		<form action="authorize1" method="post">
+			<table>
+				<tr>
+					<td>Name<input type=text name=crname autofocus required
+						placeholder="enter username"></td>
+				</tr>
+				<tr>
+					<td>Card number<input type=text name=crcard autofocus required
+						placeholder="enter Card number"></td>
+				</tr>
+				<tr>
+					<td>CVV2/CVC2<input type=text name=crcvv2 autofocus required
+						placeholder="enter CVV2/CVC2 number"></td>
+				</tr>
+				<tr>
+					<td>Amount<input type=text name=cramt autofocus required
+						placeholder="enter Amount"></td>
+				</tr>
+				<tr>
+					<th>Submit</th>
+				</tr>
+				<tr>
+					<td><input type=submit value="AUTHORIZE"></td>
+				</tr>
+
+			</table>
+		</form>
+	</div>
+</body>
+</html>
